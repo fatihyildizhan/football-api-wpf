@@ -32,7 +32,6 @@ namespace football_api_wpf.UI
         private void SelectTeamComboBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
         {
             int id = ((Team)e.AddedItems[0]).Id;
-
             PlayerResponse playerResponse = FetchJson<PlayerResponse>("https://api.football-data.org/v2/teams/" + id);
 
             playersListBox.Items.Clear();
