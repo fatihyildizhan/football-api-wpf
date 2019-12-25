@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>football_api_wpf.UI</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <Authors>Fatih YILDIZHAN</Authors>
+    <Company>Doxa Labs Ltd</Company>
+    <PackageProjectUrl>https://doxalabs.co.uk</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
